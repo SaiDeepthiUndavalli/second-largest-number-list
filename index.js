@@ -1,10 +1,9 @@
-const numbers = [30, 29, 35, 46, 70, 89];
-const reversed_num=numbers.reverse();
-// Sort the numbers in descending order
+const num_list = [30, 29, 35, 46, 70, 89];
+const reversed_num=num_list.reverse();
 
-const sortedNumbers = reversed_num.sort((a,b)=>b-a);
 
-// The second largest number will be at index 1 (indexing starts from 0)
-const secondLargest = sortedNumbers[1];
+const sorted_num = reversed_num.sort((a,b)=>b-a);
 
-console.log(secondLargest);
+const sec_high = sorted_num[1];
+
+console.log("Second largest number in the list "+sec_high);
